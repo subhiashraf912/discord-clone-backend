@@ -21,9 +21,9 @@ const attachmentSchema = new Schema(
       enum: [
         "avatar",
         "banner",
-        "messageAttachment",
-        "serverIcon",
-        "serverBanner",
+        "message-attachment",
+        "server-icon",
+        "server-banner",
       ],
       required: true,
     },

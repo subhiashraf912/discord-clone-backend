@@ -7,7 +7,6 @@ import uploadFile from "../helpers/uploadFile";
 import Attachment from "../models/Attachment";
 import { deleteFile } from "../helpers/deleteFile";
 // Initialize your cloud storage client
-// Initialize your cloud storage client
 
 const gen = new SnowflakeId();
 

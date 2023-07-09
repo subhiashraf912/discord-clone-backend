@@ -23,7 +23,7 @@ const connectDB = async () => {
       family: 4,
       dbName: "discord",
     });
-  } catch (error) {
+  } catch (error: any) {
     console.error(`Error: ${error.message}`);
     process.exit(1);
   }
